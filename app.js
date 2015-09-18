@@ -28,7 +28,7 @@ function onPlayerReady(event) {
 function onPlayerStateChange(event) {
   if(event.data == 0) {
     $(document).ready(function () {
-      setTimeout(function(){$('.modal').modal('hide');}, 3000)
+      setTimeout(function(){$('.modal').modal('hide');}, 3000) // hide after 3 minutes
     })
   }
 }
